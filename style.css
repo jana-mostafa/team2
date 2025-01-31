@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f2ef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #547793;
+}
+
+h2 {
+    text-align: center;
+    color: #547793;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+/* Form Container */
+.form-container {
+    background-color: #c1c9cc;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px 30px;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #547793;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input[type="file"] {
+    font-size: 0.9rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Social Links */
+.social-links {
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    color:#f0f3f5;
+    background-color: #f0f3f5;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #f0f3f5;
+    color: #547793;
+
+}
+
+
+/* Fieldset */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.role-button {
+    background-color:#f0f3f5;
+    color: #547793;
+    border-radius: 5px;
+}
