@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Sign Up</h1>
+        <!-- Image Upload -->
+        <div class="form-group">
+            <label for="image">Choose an image:</label>
+            <input type="file" id="image" accept="image/*">
+        </div>
+
+        <!-- Form -->
+        <form action="">
+            <fieldset>
+                <!-- Name -->
+                <div class="form-group">
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your name">
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+
+                <!-- Educational System -->
+                <div class="form-group">
+                    <label for="education">Educational System:</label>
+                    <select id="education" name="education">
+                        <option value="" disabled selected>Choose Educational System</option>
+                        <option value="general">General Secondary School</option>
+                        <option value="stem">STEM School</option>
+                    </select>
+                </div>
+
+                <!-- Grade -->
+                <div class="form-group">
+                    <label name="grade">Your Grade:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="grade" value="first"> First Secondary</label>
+                        <label><input type="checkbox" name="grade" value="second"> Second Secondary</label>
+                        <label><input type="checkbox" name="grade" value="third"> Third Secondary</label>
+                    </div>
+                </div>
+                <div class="role-buttons">
+                    <button class="role-button">Student</button>
+                    <button class="role-button">Teacher</button>
+                    <button class="role-button">Parent</button>
+                </div>
+                <!-- Sign Up Buttons -->
+                <h2>Or sign up with</h2>
+                <div class="social-links">
+                    <a href="http://">Google</a>
+                    <a href="http://">Facebook</a>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
